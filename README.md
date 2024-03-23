@@ -23,25 +23,28 @@ The code performs stratified K-fold cross-validation to assess the model's gener
 ## Results
 
 Performance on Dataset A:
+```
               precision    recall  f1-score   support
 
           -1       0.99      0.99      0.99      8992
            1       0.99      0.99      0.99      9060
-
     accuracy                           0.99     18052
-   macro avg       0.99      0.99      0.99     18052
+   macro avg       0.99      0.99      0.99     18052   
 weighted avg       0.99      0.99      0.99     18052
+```
 
 Performance on Dataset B:
+```
               precision    recall  f1-score   support
-
           -1       1.00      1.00      1.00      9785
 
     accuracy                           1.00      9785
-   macro avg       1.00      1.00      1.00      9785
+   macro avg       1.00      1.00      1.00      9785   
 weighted avg       1.00      1.00      1.00      9785
+```
 
 The code reports the model's performance on both the training and testing sets from Dataset A. It then evaluates the model's effectiveness on unseen data from Dataset B.
 
 Training and Testing Performance: The code calculates Accuracy, F1 Score, Precision, and Recall for both the training and testing datasets. This helps understand how well the model learns from the training data and generalizes to unseen data.
+
 Unseen Data Performance: The model is applied to Dataset B, which it hasn't encountered during training. This demonstrates the model's ability to detect phishing websites in real-world scenarios with potentially different characteristics.
