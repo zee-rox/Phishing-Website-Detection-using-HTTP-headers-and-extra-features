@@ -14,10 +14,11 @@ The code employs a machine learning approach called Random Forest. This algorith
 
 For evaluation, the code uses several metrics:
 
-Accuracy: Ratio of correctly classified websites (phishing and legitimate)
-F1 Score: Harmonic mean of precision and recall, accounting for both metrics.
-Precision: Proportion of correctly predicted phishing websites among all predicted phishes.
-Recall: Proportion of correctly identified phishing websites out of all actual phishing websites.
+1. Accuracy: Ratio of correctly classified websites (phishing and legitimate)
+2. F1 Score: Harmonic mean of precision and recall, accounting for both metrics.
+3. Precision: Proportion of correctly predicted phishing websites among all predicted phishes.
+4. Recall: Proportion of correctly identified phishing websites out of all actual phishing websites.
+
 The code performs stratified K-fold cross-validation to assess the model's generalizability. This technique splits the data into multiple folds, trains the model on each fold with different data combinations, and evaluates its performance on the remaining unseen fold.
 
 ## Results
