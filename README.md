@@ -6,6 +6,7 @@ This project aims to develop a machine learning model to detect phishing website
 The code utilizes various features extracted from website headers and additional data to identify phishing attempts. Here's a breakdown of the features:
 
 HTTP Headers: These headers contain information about the website's server, security settings, and content type. Examples include Content-Security-Policy, Strict-Transport-Security, and X-Frame-Options.
+
 Extra Features: The code also considers features like website traffic, URL length, presence of anchor tags, and redirection presence. These features can provide clues about the website's legitimacy.
 The target variable is labeled as 'label', indicating whether a website is phishing (-1) or legitimate (1).
 
